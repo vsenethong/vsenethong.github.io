@@ -6,6 +6,7 @@ html {
 
 .overlays{
     background: url(game.png);
+    position: fixed;
     width: 880px;
     height: 480px;
     z-index: -999;
@@ -59,7 +60,7 @@ html {
     border-radius: 30px;
     position: absolute;
     top: 390px;
-    right: -120px;
+    right: 100px;
 }
 
 
