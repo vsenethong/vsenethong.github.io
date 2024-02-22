@@ -1,0 +1,87 @@
+html {
+    font-family: sans-serif;
+}
+
+/* Background */
+
+.overlays{
+    background: url(game.png);
+    width: 880px;
+    height: 480px;
+    z-index: -999;
+}
+
+/* Lakers Overlay */
+
+.one{
+    width: 300px;
+    height: 50px;
+    margin: 5px auto;
+    background-color: rgb(75, 21, 93);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    position: absolute;
+    top: 390px;
+    left: 120px;
+}
+
+.one h2{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: -20px;
+    left: 100px;
+}
+
+.one p{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: -25px;
+    right: 18px;
+}
+
+.one img{
+    width: 40%;
+    position: absolute;
+    top: -15px;
+    left: -25px;
+}
+
+/* Nuggets Overlay */
+
+.two{
+    width: 300px;
+    height: 50px;
+    margin: 5px auto;
+    background-color: rgb(25, 23, 137);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    position: absolute;
+    top: 390px;
+    right: -120px;
+}
+
+
+.two h2{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: -20px;
+    right: 70px;
+}
+
+.two p{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: -25px;
+    right: 245px;
+}
+
+.two img{
+    width: 26%;
+    position: absolute;
+    top: -14px;
+    right: -15px;
+}
