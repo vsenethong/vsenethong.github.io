@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    background: url(flatirons.jpeg);
+}
+
+header {
+    background-color: #003366; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+article {
+    padding: 2%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.concert {
+    background-color: #fff; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+}
+
+.concert:hover {
+    color: #2765a2;
+}
+
+.concert h2 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.concert p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.concert img {
+    padding-top: 2%;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 10px
+}
+
+@media screen and (max-width: 1500px) {
+    img {
+        max-width: 80%;
+    }
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
