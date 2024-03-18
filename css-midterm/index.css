@@ -40,6 +40,10 @@ main {
     padding: 20px;
 }
 
+section {
+    margin-bottom: 20px;
+}
+
 .concert {
     background-color: #fff;
     border-radius: 10px;
@@ -69,6 +73,7 @@ main {
     width: 100%;
     border-radius: 10px;
 }
+
 
 footer {
     background-color: #003366;
