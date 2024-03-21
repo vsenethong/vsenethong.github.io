@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ICA 10</title>
+</head>
+<body>
+    <p id="element1">Click me to change color!</p>
+    <p id="element2">Click me to change text!</p>
+
+    <script>
+        document.getElementById('element1').addEventListener('click', function() {
+            var element1 = document.getElementById('element1');
+            element1.style.backgroundColor = '#e74c3c';
+        });
+
+        document.getElementById('element2').addEventListener('click', function() {
+            var element2 = document.getElementById('element2');
+            element2.textContent = 'Text Changed!';
+        });
+    </script>
+</body>
+</html>
